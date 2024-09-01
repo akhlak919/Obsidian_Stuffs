@@ -16,6 +16,7 @@ from manim import *
 class Manimation(Scene):
 	def construct(self):
 		text = Text("String value takes up")
+		text.set_color(BLUE_A, RED_B, TEAL)
 		self.add(text)
 ```
 
