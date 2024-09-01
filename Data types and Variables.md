@@ -14,11 +14,11 @@ In C++, data types specify the type of data that a variable can hold. They defin
 from manim import *
 
 class Manimation(Scene):
-	def construct(self):
-		text = Text("String value takes up")
-		text.set_color(BLUE_A, RED_B, TEAL)
-		self.add(text)
+      def construct(self):
+      text = Text("it might be works thanks to ChatGPT")
+      self.add(text)
 ```
+
 
 
 
