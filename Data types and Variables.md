@@ -10,7 +10,14 @@ In C++, data types specify the type of data that a variable can hold. They defin
 | `bool`    | 1 bytes           | Represents a boolean value(either `true (1)` or `false (0)`                                                                               | -                                     | `bool isActive = true;` |
 | `void`    | -                 | Represents the absence of type(Used primarily in functions that do not return a value or to indicate a function that takes no parameters) | -                                     | `void printMessage();`  |
 
+```python
+from manim import *
 
+class Manimation(Scene):
+	def construct(self):
+		text = Text("String value takes up")
+		self.add(text)
+```
 
    
 
